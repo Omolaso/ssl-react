@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ h1{
+    font-weight: 3000;
+}
+
+h2{
+    font-weight: 100;
+    padding: 0 0 1.5px;
+}
+
+span{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .first-section{
+    padding: 1.5rem 2rem;
+}
+
+.container .first-section .header{
+    margin-bottom: 1rem;
+}
+
+.container .first-section .human-resource{
+    display: flex;
+    flex: wrap;
+    padding: 1rem 0;
+}
+
+.container .first-section .human-resource .text{
+    padding: 1rem;
+}
+
+.container .first-section .human-resource img{
+    height: 150px;
+}
+
+.container .second-section{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ccc;
+    border: 2px solid lightslategray;
+    min-height: 100vh;
+    padding: 3rem;
+}
+
+.container .second-section .text{
+    text-align: center;
+}
+
+.container .second-section .text h3{
+    color: rgb(21, 3, 121) ;
+    text-shadow: 0px 2px 2px black;
+}
+
+.container .second-section .text #param{
+    padding: 1rem 0;
+}
+
+.container .second-section .text #center{
+    color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.container .second-section .pay h1{
+    text-shadow: 0 2px 2px black;
+}
+
+.container .second-section .make{
+    border-radius: 50px;
+    border: none;
+    text-align: center; 
+    font-size: 16px;
+    padding: 1rem 0rem;
+    background: rgb(86, 59, 236);
+    color: white;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .container .first-section #bill{
+        text-align: center;
+    }
+
+    .allSection .secondSection{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .container .first-section .human-resource{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
