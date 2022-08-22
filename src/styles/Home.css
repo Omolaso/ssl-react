@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
- h1{
+h1{
     font-weight: 3000;
 }
 
@@ -102,7 +102,7 @@ span{
         text-align: center;
     }
 
-    .allSection .secondSection{
+    .container .second-section{
         margin-bottom: 1.5rem;
     }
 }
