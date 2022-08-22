@@ -56,7 +56,7 @@ const Home = () => {
         <section className='second-section'>
         <div className="text">
                 <h3>CloudletHR</h3>
-                <p id="param">Industry texted no1 software solution for <br/> modern human resource providers <br/> over the world</p>
+                <p id="param">Industry tested no1 software solution for <br/> modern human resource providers <br/> over the world</p>
             </div>
 
             <div className="text pay">
